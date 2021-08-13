@@ -10,7 +10,7 @@ ASSIGNMENT RULES
 Write a function "area" which receives 2 parameters (l1,l2) and calculates the area of the associated rectangle.
 */
 
-console.log("-------------------- EXERCISE 1 -"); 
+console.log("-------------------- EXERCISE 1 ------"); 
 const area = function (l1, l2) { 
     let areaM2 = l1 * l2; return areaM2;
  }; 
@@ -20,6 +20,24 @@ const area = function (l1, l2) {
 /* EXERCISE 2
 Write a function "crazySum" which receives two integers. It should return the sum of those two values, but if the two values are the same then it should return their sum multiplied by 3.
 */
+
+console.log("-------------------- EXERCISE 2 ------")
+
+let crazySum = function (num1, num2) {
+    intNum1 = parseInt(num1)
+    intNum2 = parseInt(num2)
+
+    if (intNum1 === intNum2) { 
+        let multBy3 = (intNum1 + intNum2) * 3; console.log(multBy3)
+     } else { 
+         let justSum = intNum2 + intNum2
+         console.log(justSum)
+        } 
+    }
+    
+    crazySum(2, 2); //Incorrect sum for the case "else"
+    
+    console.log("\n");
 
 /* EXERCISE 3
 Write a function "crazyDiff" that computes the absolute difference between a given number and 19. 
