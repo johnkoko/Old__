@@ -99,7 +99,20 @@ Write a function "check3and7" which accepts a positive number and check if it is
 HINT: Module Operator
 */
 
-/* WRITE YOUR CODE HERE */
+console.log("-------------------- EXERCISE 6 ------");
+
+let check3and7 = function (positifNum) {
+    let intPositifNum = parseInt(positifNum)
+
+    if (intPositifNum % 3 === 0 || intPositifNum % 7 === 0) { 
+        console.log("Is multiple of 3 or 7.")
+    } else { 
+        console.log("Not multiple of 3 or 7.")
+    }
+}
+check3and7(7)
+
+console.log("\n");
 
 /* EXERCISE 7
 Write a function "reverseString" to programmatically reverse a given string (es.: Strive => evirtS).
