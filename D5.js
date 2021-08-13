@@ -64,7 +64,15 @@ console.log("\n");
 Write a function "boundary" which accept an integer n and returns true if n is within 20 and 100 (included) or if it's equal to 400.
 */
 
-/* WRITE YOUR CODE HERE */
+console.log("-------------------- EXERCISE 4 ------")
+let boundary = function (n) {
+    intN = parseInt(n)
+    let trueOrFalse = intN >= 20 && intN <= 100 ? "True" : "False"
+    console.log(trueOrFalse)
+ }
+boundary(5)
+
+console.log("\n")
 
 /* EXERCISE 5
 Write a function "strivify" which accepts a string.
