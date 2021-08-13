@@ -44,6 +44,22 @@ Write a function "crazyDiff" that computes the absolute difference between a giv
 It should return triple their absolute difference if the given number is greater than 19.
 */
 
+console.log("-------------------- EXERCISE 3 ------")
+
+let crazyDiff = function (givenNumber) { 
+    intGivenNumber = parseInt(givenNumber)
+    if (intGivenNumber > 19) {
+        let graterThan = (intGivenNumber - 19) * 3
+         console.log(graterThan)
+    } else { let absDiff = 19 - intGivenNumber
+        console.log(absDiff)
+    }
+}
+crazyDiff(20)
+
+console.log("\n");
+
+
 /* EXERCISE 4
 Write a function "boundary" which accept an integer n and returns true if n is within 20 and 100 (included) or if it's equal to 400.
 */
